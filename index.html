@@ -36,8 +36,11 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
+                <div class="col-12 col-sm-6 col-md-3 align-self-center">
                     <img class="img-fluid" src="img/logo.png" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3  align-self-center">
+                    <a class="btn btn-warning btn-block" href="#reserve" role="button">Reserve Table</a>
                 </div>
             </div>
         </div>
@@ -53,21 +56,25 @@
                     <img  class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="">
                     <div class="media-body">
                         <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-secondary">$4.99</span></h2>
-                        <p class="hidden-xs-downd">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                        <p class="hidden-xs-downd d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
                     </div>
                 </div>
                 
             </div>
         </div>
 
-
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 col-md-3">
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="media">
+                    <div class="media-body">
+                        <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                    </div>
+                    <img  class="d-flex img-thumbnail align-self-center ml-3" src="img/buffet.png" alt="">
+                </div>
             </div>
         </div>
 
@@ -81,11 +88,63 @@
                     <div class="medida-body">
                         <h2 class="mt-0">Alberto Somayya</h2>
                         <h4>Executive Chef</h4>
-                        <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                        <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="container" id="reserve">
+        <div class="row  justify-content-center mb-5 mt-5">
+            <div class="col-12 col-sm-8">
+                <div class="card">
+                    <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group"><!-- offset empuja a la derecha -->
+                                <div class="form-radio">
+                                    <dl class=" form-group row">
+                                        <dt class="col-8 col-sm-8 col-md-3  col-xl-2 ">
+                                            <label class="form-check-label">Number of Guests</label>
+                                        <dt class="col-12 col-sm-12 col-md-9 ">
+                                            <input type="radio" aria-label="Radio button for following text input">1
+                                            <input class="ml-3" type="radio" aria-label="Radio button for following text input">2
+                                            <input class="ml-3" type="radio" aria-label="Radio button for following text input">3
+                                            <input class="ml-3" type="radio" aria-label="Radio button for following text input">4
+                                            <input class="ml-3" type="radio" aria-label="Radio button for following text input">5
+                                            <input class="ml-3" type="radio" aria-label="Radio button for following text input">6
+                                        </dt>    
+                                    </dl>    
+                                    <dl class="form-group row">
+                                        <dt class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2">
+                                            <label>Date and Time</label>
+                                        </dt>
+                                        <dt class="col-12 col-sm-12 col-md-2 col-lg-3 offset-lg-1 offset-xl-0"><input type="date" placeholder="Date"></dt>
+                                        <dt class="col-12 col-sm-12 col-md-2 offset-md-3 offset-lg-1 offset-xl-0 "><input type="time" placeholder="Time"></dt>
+                                    </dl>        
+                                    <div class="form-group row">
+                                        <div class="col col-sm-8 offset-md-3 offset-xl-2">
+                                            <button class="btn btn-primary " type="submit">Reserve</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- </div> -->
+                            </form>    
+                        <!-- <dl class="row">
+                            <dt class="col-6">Started</dt>
+                            <dd class="col-6">3 Feb 2013</dd>
+                            <dd class="col-6">Major Stake Holder</dd>
+                            <dd class="col-6">HK Fine Foods Inc.</dd>
+                            <dd class="col-6">Last Year´s Turnover</dd>
+                            <dd class="col-6">$1,250,375</dd>
+                            <dd class="col-6">Employees</dd>
+                            <dd class="col-6">40</dd>
+                        </dl> -->
+                    </div>
+                </div>
+            </div>    
+        </div>    
     </div>
 
     <footer class="footer">
